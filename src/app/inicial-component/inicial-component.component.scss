@@ -1,0 +1,19 @@
+body{
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+
+  aside{
+    background-color:aquamarine;
+    flex: 1;
+    width: 20vw;
+    height: 100vh;
+  }
+  main{
+    background-color: aliceblue;
+    flex: 5;
+    width: 80vw;
+    height: 100vh;
+  }
+}
+
