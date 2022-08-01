@@ -2,18 +2,66 @@ body{
   margin: 0 !important;
   display: flex;
   flex-direction: row;
+  height: 100vh;
 
   aside{
-    background-color:aquamarine;
+    background-color:var(--salmon);
     flex: 1;
     width: 20vw;
-    height: 100vh;
+    padding-top: 30px;
+
+    h2{
+      font-family: 'Amatic SC', cursive;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 20px;
+      color: var(--cinza)
+    }
+    section{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      margin-left: 20px;
+      margin-top: 20px;
+
+      input{
+        background-color: var(--branco);
+        border-radius: 30px;
+        border: none;
+        height: 30px;
+      }
+      button{
+        height: 30px;
+        width: 40px;
+        border: none;
+        background-color: var(--azul);
+        border-radius: 30px;
+        align-items: center;
+
+        img{
+          margin-top: 2px;
+          height: 22px;
+        }
+      }
+    }
+    ul{
+      margin-top: 30px !important;
+      padding: 0px;
+
+      li{
+        list-style-type: none;
+        font-family: 'Poppins', sans-serif;
+        color: var(--cinza);
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
   }
   main{
-    background-color: aliceblue;
+    background-color: var(--branco);
     flex: 5;
     width: 80vw;
-    height: 100vh;
   }
 }
 
