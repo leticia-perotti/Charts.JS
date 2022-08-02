@@ -57,6 +57,15 @@ body{
         margin-top: 20px;
       }
     }
+    div{
+      position: fixed;
+      bottom: 0;
+      width: 20vw;
+      color: var(--cinza);
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 13px;
+    }
   }
   main{
     background-color: var(--branco);
