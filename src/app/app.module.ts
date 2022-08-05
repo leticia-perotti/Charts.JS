@@ -3,20 +3,29 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InicialComponentComponent } from './inicial-component/inicial-component.component';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 import { FormsModule } from '@angular/forms';
+import { BarrasComponent } from './graficos/barras/barras.component';
+import { LinhasComponent } from './graficos/linhas/linhas.component';
+import { PizzaComponent } from './graficos/pizza/pizza.component';
+import { ColunasComponent } from './graficos/colunas/colunas.component';
+import { AreaComponent } from './graficos/area/area.component';
+import { BubbleComponent } from './graficos/bubble/bubble.component';
+import { MixedComponent } from './graficos/mixed/mixed.component';
+import { PolarComponent } from './graficos/polar/polar.component';
+import { RadarComponent } from './graficos/radar/radar.component';
+import { ScatterComponent } from './graficos/scatter/scatter.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    InicialComponentComponent,
-    BemVindoComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

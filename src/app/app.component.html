@@ -1,1 +1,33 @@
-  <router-outlet></router-outlet>
+<body>
+  <aside>
+    <h2>Gráficos</h2>
+    <section>
+      <input type="text" name = "pesquisa" [(ngModel)]="pesquisa">
+      <button type="button">
+        <img src="assets/images/search_icon.svg" alt="imagem de uma lupa">
+      </button>
+    </section>
+    <ul id="lista">
+      <li routerLink="/inicial/barras">Barras</li>
+      <li routerLink="/inicial/linhas">Linhas</li>
+      <li routerLink="/inicial/pizza">Pizza</li>
+      <li routerLink="/inicial/colunas">Colunas</li>
+      <li routerLink="/inicial/areas">Área</li>
+      <li routerLink="/inicial/bubble">Bubble</li>
+      <li routerLink="/inicial/mixed">Mixed</li>
+      <li routerLink="/inicial/polar">Polar área</li>
+      <li routerLink="/inicial/radar">Radar</li>
+      <li routerLink="/inicial/scatter">Scatter</li>
+    </ul>
+    <div>Por Letícia Perotti
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg>
+    </div>
+  </aside>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+</body>
+
