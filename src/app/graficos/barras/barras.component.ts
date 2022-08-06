@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GraficosService } from '../graficos.service';
 
 @Component({
   selector: 'app-barras',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BarrasComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: GraficosService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.consultar()
+  }
+
+  consultar(){
+    this.service.barras().subscribe((data: any) =>{
+      console.log(data);
+    })
   }
 
 }

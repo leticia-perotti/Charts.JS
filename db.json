@@ -1,0 +1,29 @@
+
+{
+  "clientes": [
+    {
+      "id": 100,
+      "nome": "Jose C Macoratti",
+      "endereco": "Rua Projetada 100",
+      "email": "macoratti@yahoo.com"
+    },
+    {
+      "id": 200,
+      "nome": "Maria Barbosa",
+      "endereco": "Rua Peru 34",
+      "email": "mariabarbosa@bol.com.br"
+    },
+    {
+      "id": 300,
+      "nome": "Helana Sanches",
+      "endereco": "Rua XV de Novembro, 450",
+      "email": "helenasanches@hotmail.com"
+    },
+    {
+      "id": 400,
+      "nome": "Damaris Bueno",
+      "endereco": "Av. Mexico10",
+      "email": "damaris@yahoo.com"
+    }
+]
+}
