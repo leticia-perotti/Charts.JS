@@ -10,6 +10,6 @@ export class GraficosService {
   constructor(private http: HttpClient) { }
 
   barras(){
-    return this.http.get(this.local+"/clientes")
+    return this.http.get(this.local+"acessoaonivelsuperior")
   }
 }

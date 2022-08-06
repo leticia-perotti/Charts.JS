@@ -16,6 +16,7 @@ import { PolarComponent } from './graficos/polar/polar.component';
 import { RadarComponent } from './graficos/radar/radar.component';
 import { ScatterComponent } from './graficos/scatter/scatter.component';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
