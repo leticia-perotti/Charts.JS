@@ -31,5 +31,62 @@
       "dado2016": 32.8,
       "dado2018": 32.7
     }
-]
+],
+  "precipitacao": [
+    {
+      "mes": "jan",
+      "dado1": 270,
+      "dado2": 313
+    },
+    {
+      "mes": "fev",
+      "dado1": 192,
+      "dado2": 168
+    },
+    {
+      "mes": "mar",
+      "dado1": 159,
+      "dado2": 131
+    },
+    {
+      "mes": "abr",
+      "dado1": 63,
+      "dado2": 40
+    },
+    {
+      "mes": "jun",
+      "dado1": 42,
+      "dado2": 16
+    },
+    {
+      "mes": "jul",
+      "dado1": 40,
+      "dado2": 9
+    },
+    {
+      "mes": "ago",
+      "dado1": 63,
+      "dado2": 40
+    },
+    {
+      "mes": "set",
+      "dado1": 60,
+      "dado2": 0
+    },
+    {
+      "mes": "aoutgo",
+      "dado1": 112,
+      "dado2": 0
+    },
+    {
+      "mes": "nov",
+      "dado1": 158,
+      "dado2": 0
+    },
+    {
+      "mes": "dez",
+      "dado1": 202,
+      "dado2": 0
+    }
+  ]
 }

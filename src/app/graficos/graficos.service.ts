@@ -12,4 +12,8 @@ export class GraficosService {
   barras(){
     return this.http.get(this.local+"acessoaonivelsuperior")
   }
+
+  precipitacao(){
+    return this.http.get(this.local+"precipitacao")
+  }
 }
