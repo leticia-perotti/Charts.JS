@@ -88,5 +88,35 @@
       "dado1": 202,
       "dado2": 0
     }
+  ],
+  "producaoindustrial":[
+    {
+      "estado": "SP",
+      "dado": 48.2
+    },
+    {
+      "estado": "RJ",
+      "dado": 6.9
+    },
+    {
+      "estado": "MG",
+      "dado": 10.2
+    },
+    {
+      "estado": "RS",
+      "dado": 7.9
+    },
+    {
+      "estado": "PR",
+      "dado": 5.7
+    },
+    {
+      "estado": "SC",
+      "dado": 4.7
+    },
+    {
+      "estado": "SC",
+      "dado": 4.7
+    }
   ]
 }

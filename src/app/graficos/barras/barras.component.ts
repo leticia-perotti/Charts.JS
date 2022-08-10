@@ -35,7 +35,9 @@ export class BarrasComponent implements OnInit {
           datasets:[{
             label: "2016",
             data : this.data2016,
-            backgroundColor: "#F4BFBF"
+            backgroundColor: [
+              "#F4BFBF"
+            ]
           },
           {
             label: "2016",

@@ -16,4 +16,8 @@ export class GraficosService {
   precipitacao(){
     return this.http.get(this.local+"precipitacao")
   }
+
+  producaoIndustrial(){
+    return this.http.get(this.local+"producaoindustrial")
+  }
 }
