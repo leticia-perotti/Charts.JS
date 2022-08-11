@@ -118,5 +118,42 @@
       "estado": "SC",
       "dado": 4.7
     }
+  ],
+  "comparacaoempresas":[
+    {
+      "dado": "valores",
+      "empresa1": 9,
+      "empresa2": 7
+    },
+    {
+      "dado": "publico",
+      "empresa1": 8,
+      "empresa2": 6
+    },
+    {
+      "dado": "meioambiente",
+      "empresa1": 9,
+      "empresa2": 8
+    },
+    {
+      "dado": "fornecedores",
+      "empresa1": 9.5,
+      "empresa2": 8.5
+    },
+    {
+      "dado": "consumidores",
+      "empresa1": 9.8,
+      "empresa2": 7.5
+    },
+    {
+      "dado": "comunidade",
+      "empresa1": 9.8,
+      "empresa2":2.8
+    },
+    {
+      "dado": "governo",
+      "empresa1":  9.5,
+      "empresa2": 6.8
+    }
   ]
 }

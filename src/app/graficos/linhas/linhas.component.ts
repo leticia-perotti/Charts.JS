@@ -39,7 +39,7 @@ export class LinhasComponent implements OnInit {
             backgroundColor: "#F4BFBF8a"
           },
           {
-            label: "2016",
+            label: "2018",
             data : this.dado2,
             fill: true,
             backgroundColor: "#8CC0DE8a"
