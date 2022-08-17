@@ -121,37 +121,37 @@
   ],
   "comparacaoempresas":[
     {
-      "dado": "valores",
+      "dado": "Valores",
       "empresa1": 9,
       "empresa2": 7
     },
     {
-      "dado": "publico",
+      "dado": "Público",
       "empresa1": 8,
       "empresa2": 6
     },
     {
-      "dado": "meioambiente",
+      "dado": "Meio Ambiente",
       "empresa1": 9,
       "empresa2": 8
     },
     {
-      "dado": "fornecedores",
+      "dado": "Fornecedores",
       "empresa1": 9.5,
       "empresa2": 8.5
     },
     {
-      "dado": "consumidores",
+      "dado": "Consumidores",
       "empresa1": 9.8,
       "empresa2": 7.5
     },
     {
-      "dado": "comunidade",
+      "dado": "Comunidade",
       "empresa1": 9.8,
       "empresa2":2.8
     },
     {
-      "dado": "governo",
+      "dado": "Governo",
       "empresa1":  9.5,
       "empresa2": 6.8
     }

@@ -20,4 +20,8 @@ export class GraficosService {
   producaoIndustrial(){
     return this.http.get(this.local+"producaoindustrial")
   }
+
+  comparacaoempresas(){
+    return this.http.get(this.local+"comparacaoempresas")
+  }
 }
