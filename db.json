@@ -155,5 +155,55 @@
       "empresa1":  9.5,
       "empresa2": 6.8
     }
+  ],
+  "vendassorveteria": [
+    {
+      "temperatura": 11,
+      "vendas": 190
+    },
+    {
+      "temperatura": 14,
+      "vendas": 210
+    },
+    {
+      "temperatura": 15,
+      "vendas": 320
+    },
+    {
+      "temperatura": 16.5,
+      "vendas": 310
+    },
+    {
+      "temperatura": 17,
+      "vendas": 400
+    },
+    {
+      "temperatura": 18,
+      "vendas": 410
+    },
+    {
+      "temperatura": 18.7,
+      "vendas": 400
+    },
+    {
+      "temperatura": 19,
+      "vendas": 405
+    },
+    {
+      "temperatura": 22,
+      "vendas": 510
+    },
+    {
+      "temperatura": 22.8,
+      "vendas": 450
+    },
+    {
+      "temperatura": 23.2,
+      "vendas": 560
+    },
+    {
+      "temperatura": 25,
+      "vendas": 610
+    }
   ]
 }
