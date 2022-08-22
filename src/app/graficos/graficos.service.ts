@@ -24,4 +24,8 @@ export class GraficosService {
   comparacaoempresas(){
     return this.http.get(this.local+"comparacaoempresas")
   }
+
+  vendassorveteria(){
+    return this.http.get(this.local+"vendassorveteria")
+  }
 }
