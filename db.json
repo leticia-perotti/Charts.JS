@@ -205,5 +205,51 @@
       "temperatura": 25,
       "vendas": 610
     }
+  ],
+  "populacaopais":[
+    {
+      "ano": 1968,
+      "quantidade": 76612
+    },
+    {
+      "ano": 1975,
+      "quantidade": 79994
+    },
+    {
+      "ano": 1982,
+      "quantidade": 82897
+    },
+    {
+      "ano": 1990,
+      "quantidade": 86486
+    },
+    {
+      "ano": 1999,
+      "quantidade": 87291
+    },
+    {
+      "ano": 2006,
+      "quantidade": 93641
+    },
+    {
+      "ano": 2007,
+      "quantidade": 94360
+    },
+    {
+      "ano": 2008,
+      "quantidade": 95509
+    },
+    {
+      "ano": 2009,
+      "quantidade": 97120
+    },
+    {
+      "ano": 2010,
+      "quantidade": 97676
+    },
+    {
+      "ano": 2013,
+      "quantidade": 101000
+    }
   ]
 }
