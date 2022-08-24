@@ -28,4 +28,8 @@ export class GraficosService {
   vendassorveteria(){
     return this.http.get(this.local+"vendassorveteria")
   }
+
+  populacaopais(){
+    return this.http.get(this.local+"populacaopais")
+  }
 }
