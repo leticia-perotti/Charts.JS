@@ -251,5 +251,57 @@
       "ano": 2013,
       "quantidade": 101000
     }
+  ],
+  "aplicacoes":[
+    {
+      "tecnica": 2,
+      "valor":2,
+      "quantidade": 1
+    },
+    {
+      "tecnica": 2,
+      "valor":3,
+      "quantidade": 2.3
+    },
+    {
+      "tecnica": 5,
+      "valor":3,
+      "quantidade": 0.5
+    },
+    {
+      "tecnica": 8,
+      "valor":3,
+      "quantidade": 4
+    },
+    {
+      "tecnica": 5,
+      "valor":5,
+      "quantidade": 1.5
+    },
+    {
+      "tecnica": 4,
+      "valor":5,
+      "quantidade": 1
+    },
+    {
+      "tecnica": 4,
+      "valor":7,
+      "quantidade": 1.5
+    },
+    {
+      "tecnica": 7,
+      "valor":8,
+      "quantidade": 1.8
+    },
+    {
+      "tecnica": 8,
+      "valor":8,
+      "quantidade": 3
+    },
+    {
+      "tecnica": 7,
+      "valor":9,
+      "quantidade": 2
+    }
   ]
 }
