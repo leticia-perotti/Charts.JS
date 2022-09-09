@@ -32,4 +32,8 @@ export class GraficosService {
   populacaopais(){
     return this.http.get(this.local+"populacaopais")
   }
+
+  aplicacoes(){
+    return this.http.get(this.local+"aplicacoes")
+  }
 }

@@ -256,52 +256,52 @@
     {
       "tecnica": 2,
       "valor":2,
-      "quantidade": 1
+      "quantidade": 2
     },
     {
       "tecnica": 2,
       "valor":3,
-      "quantidade": 2.3
+      "quantidade": 4.6
     },
     {
       "tecnica": 5,
       "valor":3,
-      "quantidade": 0.5
+      "quantidade": 1
     },
     {
       "tecnica": 8,
       "valor":3,
-      "quantidade": 4
+      "quantidade": 8
     },
     {
       "tecnica": 5,
       "valor":5,
-      "quantidade": 1.5
+      "quantidade": 3
     },
     {
       "tecnica": 4,
       "valor":5,
-      "quantidade": 1
+      "quantidade": 2
     },
     {
       "tecnica": 4,
       "valor":7,
-      "quantidade": 1.5
-    },
-    {
-      "tecnica": 7,
-      "valor":8,
-      "quantidade": 1.8
-    },
-    {
-      "tecnica": 8,
-      "valor":8,
       "quantidade": 3
     },
     {
       "tecnica": 7,
+      "valor":8,
+      "quantidade": 3.6
+    },
+    {
+      "tecnica": 8,
+      "valor":8,
+      "quantidade": 6
+    },
+    {
+      "tecnica": 7,
       "valor":9,
-      "quantidade": 2
+      "quantidade": 4
     }
   ]
 }
