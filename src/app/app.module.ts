@@ -8,8 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { BarrasComponent } from './graficos/barras/barras.component';
 import { LinhasComponent } from './graficos/linhas/linhas.component';
 import { PizzaComponent } from './graficos/pizza/pizza.component';
-import { ColunasComponent } from './graficos/colunas/colunas.component';
-import { AreaComponent } from './graficos/area/area.component';
 import { BubbleComponent } from './graficos/bubble/bubble.component';
 import { MixedComponent } from './graficos/mixed/mixed.component';
 import { PolarComponent } from './graficos/polar/polar.component';
