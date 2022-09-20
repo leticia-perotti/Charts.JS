@@ -303,5 +303,92 @@
       "valor":9,
       "quantidade": 4
     }
+  ],
+  "temperaturaclimigrama": [
+    {
+      "mes": "Janeiro",
+      "temperatura": 23
+    },{
+      "mes": "Fevereiro",
+      "temperatura": 23
+    },{
+      "mes": "Março",
+      "temperatura": 20
+    },{
+      "mes": "Abril",
+      "temperatura": 19
+    },{
+      "mes": "Maio",
+      "temperatura": 16
+    },{
+      "mes": "Junho",
+      "temperatura": 15
+    },{
+      "mes": "Julho",
+      "temperatura": 15
+    },{
+      "mes": "Agosto",
+      "temperatura": 16
+    },{
+      "mes": "Setembro",
+      "temperatura": 17
+    },{
+      "mes": "Outubro",
+      "temperatura": 18
+    },{
+      "mes": "Novembro",
+      "temperatura": 19
+    },{
+      "mes": "Dezembro",
+      "temperatura": 21
+    }
+  ],
+  "precipitacaoclimograma":[
+    {
+      "mes": "Janeiro",
+     "precipitacao": 240
+    },
+    {
+      "mes": "Fevereiro",
+     "precipitacao": 210
+    },
+    {
+      "mes": "Março",
+     "precipitacao": 160
+    },
+    {
+      "mes": "Abril",
+     "precipitacao": 80
+    },
+    {
+      "mes": "Maio",
+     "precipitacao": 60
+    },
+    {
+      "mes": "Junho",
+     "precipitacao": 40
+    },
+    {
+      "mes": "Julho",
+     "precipitacao": 35
+    },
+    {
+      "mes": "Agosto",
+     "precipitacao": 30
+    },
+    {
+      "mes": "Setembro",
+     "precipitacao": 70
+    },    {
+      "mes": "Outubro",
+     "precipitacao": 130
+    },    {
+      "mes": "Novembro",
+     "precipitacao": 130
+    },
+    {
+      "mes": "Dezembro",
+     "precipitacao": 190
+    }
   ]
 }
