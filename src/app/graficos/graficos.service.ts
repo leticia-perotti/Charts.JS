@@ -36,4 +36,12 @@ export class GraficosService {
   aplicacoes(){
     return this.http.get(this.local+"aplicacoes")
   }
+
+  precipitacaoclimograma(){
+    return this.http.get(this.local+"precipitacaoclimograma")
+  }
+
+  temperaturaclimigrama(){
+    return this.http.get(this.local+"temperaturaclimigrama")
+  }
 }
