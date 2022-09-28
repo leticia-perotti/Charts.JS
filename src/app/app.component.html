@@ -2,20 +2,20 @@
   <aside>
     <h2>Gráficos</h2>
     <section>
-      <input type="text" name = "pesquisa" [(ngModel)]="pesquisa">
+      <input type="text" name = "pesquisa" [(ngModel)]="pesquisa" (keyup)="seleciona()">
       <button type="button">
-        <img src="assets/images/search_icon.svg" alt="imagem de uma lupa">
+        <img src="assets/images/search_icon.svg" alt="imagem de uma lupa" click="seleciona()">
       </button>
     </section>
     <ul id="lista">
-      <li routerLink="/inicial/barras">Barras</li>
-      <li routerLink="/inicial/linhas">Linhas</li>
-      <li routerLink="/inicial/pizza">Pizza/ Pie</li>
-      <li routerLink="/inicial/bubble">Bubble</li>
-      <li routerLink="/inicial/mixed">Mixed</li>
-      <li routerLink="/inicial/polar">Polar área</li>
-      <li routerLink="/inicial/radar">Radar</li>
-      <li routerLink="/inicial/scatter">Scatter</li>
+      <li routerLink="/inicial/barras"><label class="name">Barras</label></li>
+      <li routerLink="/inicial/linhas"><label class="name">Linhas</label></li>
+      <li routerLink="/inicial/pizza" ><label class="name">Pizza/ Pie</label></li>
+      <li routerLink="/inicial/bubble"><label class="name">Bubble</label></li>
+      <li routerLink="/inicial/mixed" ><label class="name">Mixed</label></li>
+      <li routerLink="/inicial/polar" ><label class="name">Polar área</label></li>
+      <li routerLink="/inicial/radar"><label class="name">Radar</label></li>
+      <li routerLink="/inicial/scatter"><label class="name">Scatter</label></li>
     </ul>
     <div>Por Letícia Perotti
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
