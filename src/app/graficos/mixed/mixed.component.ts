@@ -24,38 +24,50 @@ export class MixedComponent implements OnInit {
 
   buscaPrecipitacao(): any[]{
     this.service.precipitacaoclimograma().subscribe((dados: any) =>{
+      console.log(dados)
       return dados
     })
     return []
   }
 
-  buscaTemperatura(){
-    this.service.temperaturaclimigrama().subscribe((dados: any) =>{
-      return dados
+  buscaTemperatura(): any[]{
+    this.service.temperaturaclimigrama().toPromise().then(res =>  {
+      return res
     })
     return []
   }
 
   async listar(){
 
-    this.dado1 = await this.buscaPrecipitacao();
-    this.dado2 = await this.buscaTemperatura();
+    this.dado1 = await this.service.precipitacaoclimograma().toPromise().then();
+    this.dado2 = await this.service.temperaturaclimigrama().toPromise().then();
+
+    var dadosPrecipitacao : any[] = []
+    var dadosTemperatuta : any[] = []
+
+    this.dado1.forEach(dado => {
+      dadosPrecipitacao.push(dado.precipitacao)
+    })
+    this.dado2.forEach(dado => {
+      dadosTemperatuta.push(dado.temperatura)
+    })
+
     var myChart = new Chart("myChart", {
-      type: 'line',
       data: {
-        labels: ['January', 'February', 'March', 'April'],
+        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
         datasets:[{
           type : 'bar',
           label: "Precipitação",
-          data : this.buscaPrecipitacao(),
+          data : dadosPrecipitacao,
           backgroundColor: "#F4BFBF8a"
         },
         {
           type: 'line',
           label: "Temperatura",
-          data : this.buscaTemperatura(),
-          fill: true,
-          backgroundColor: "#8CC0DE8a"
+          data : dadosTemperatuta,
+          backgroundColor: "#8793eb8a",
+          borderColor: '#8793eb8a',
+          order: 2,
         },
 
       ],
@@ -67,13 +79,6 @@ export class MixedComponent implements OnInit {
   extractLabel(){
     this.rows.map((row:any) => {
       this.labels.push(row.mes)
-    })
-  }
-  extractDataset(){
-    this.rows.map((row:any) => {
-      this.dado1.push(row.dado1)
-      this.dado2.push(row.dado2)
-
     })
   }
 
